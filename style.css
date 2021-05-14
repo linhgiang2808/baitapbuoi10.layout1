@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: #4f4e52;
+}
+.header{
+    display: flex;
+    margin-bottom: 5px;
+    /* margin-top: 10px; */
+}
+.kind{
+    font-size: 30px;
+    color: yellow;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 800px;
+}
+.more{
+    padding: 20px 12px;
+    color: #ddd;
+    font-size: 14px;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
+ul li{
+    list-style: none;
+}
+.col{
+    width: 25%;
+    margin: 10px;
+    background-color: black;
+    border: 10px solid #000000;
+}
+img{
+    width: 100%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+ul li{
+    list-style: none;
+    color: white;
+}
+.picture{
+    position: relative;
+}
+.tag{
+    position: absolute;
+    padding: 4px;
+    top: 2%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: #A21d0a;
+}
+.tag:after {
+    content: "";
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #a21d0a;
+    border-style: solid;
+    border-width: 14px 0 12px 13px;
+}
+.tag2{
+    position: absolute;
+    padding: 4px;
+    top: 2%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: #A21d0a;
+}
+.tag2:after {
+    content: "";
+    float: right;
+    position: absolute;
+    top: 0;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #a21d0a;
+    border-style: solid;
+    border-width: 14px 0 12px 13px;
+}
+.tag3{
+    position: absolute;
+    padding: 4px;
+    top: 2%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: #A21d0a;
+}
+.tag3:after {
+    content: "";
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #a21d0a;
+    border-style: solid;
+    border-width: 14px 0 12px 13px;
+}
+#feature{
+    background-color: tomato;
+}
+.title1{
+    font-weight: bold;
+    color: #44e2ff;
+    font-size: 12px;
+}
+.time{
+    margin-top: 10px;
+    color: #777777;
+}
